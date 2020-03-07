@@ -2,6 +2,30 @@
   padding: 0 20px;
   margin-bottom: 1.5em;
 
+  .post-meta {
+      .post-tag-list {
+        float: right;
+        display: inline-block;
+        padding: 0;
+        margin: 0 0 0.5em 0;
+        color: #999;
+
+        .post-tag-list-item {
+          display: inline-block;
+          margin: 0 1em 0 0;
+
+        a {
+          font-size: 85%;
+        }
+
+        &:before {
+          content: '#';
+        }
+
+      }
+    }
+  }
+
   img {
     max-width: 100%;
   }
@@ -88,8 +112,8 @@
   }
 
   .post-footer {
-    line-height: 1;
-    min-height: 1em;
+    line-height: 6;
+    min-height: 3em;
 
     .top {
       float: right;
@@ -100,25 +124,6 @@
       }
     }
 
-    .post-tag-list {
-      display: inline-block;
-      padding: 0;
-      margin: 0 0 0.5em 0;
-      color: #999;
 
-      .post-tag-list-item {
-        display: inline-block;
-        margin: 0 1em 0 0;
-
-        a {
-          font-size: 85%;
-        }
-
-        &:before {
-          content: '#';
-        }
-
-      }
-    }
   }
 }

@@ -13,4 +13,5 @@ rss: /atom.xml
 # Nav menu
 menu:
   Home: /
+  Links: /links
   About: /about
